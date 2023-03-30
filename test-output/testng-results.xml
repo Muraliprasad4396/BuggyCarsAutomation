@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T21:09:55 NZDT" name="Default suite" finished-at="2023-03-30T21:10:35 NZDT" duration-ms="40727">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T21:09:55 NZDT" name="Default test" finished-at="2023-03-30T21:10:35 NZDT" duration-ms="40727">
+      <class name="buggyCarAutomation.StepDefinitions">
+        <test-method signature="LoginCase()[pri:0, instance:buggyCarAutomation.StepDefinitions@747edf66]" started-at="2023-03-30T21:09:55 NZDT" name="LoginCase" finished-at="2023-03-30T21:10:00 NZDT" duration-ms="4850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginCase -->
+        <test-method signature="NavigateCase()[pri:0, instance:buggyCarAutomation.StepDefinitions@747edf66]" started-at="2023-03-30T21:10:00 NZDT" name="NavigateCase" finished-at="2023-03-30T21:10:15 NZDT" duration-ms="15284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateCase -->
+        <test-method signature="ProfileCase()[pri:0, instance:buggyCarAutomation.StepDefinitions@747edf66]" started-at="2023-03-30T21:10:15 NZDT" name="ProfileCase" finished-at="2023-03-30T21:10:22 NZDT" duration-ms="6998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfileCase -->
+        <test-method signature="RegisterCase()[pri:0, instance:buggyCarAutomation.StepDefinitions@747edf66]" started-at="2023-03-30T21:10:22 NZDT" name="RegisterCase" finished-at="2023-03-30T21:10:26 NZDT" duration-ms="4425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterCase -->
+        <test-method signature="VotingCase()[pri:0, instance:buggyCarAutomation.StepDefinitions@747edf66]" started-at="2023-03-30T21:10:26 NZDT" name="VotingCase" finished-at="2023-03-30T21:10:35 NZDT" duration-ms="9106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VotingCase -->
+        <test-method signature="logFile()[pri:0, instance:buggyCarAutomation.StepDefinitions@747edf66]" started-at="2023-03-30T21:10:35 NZDT" name="logFile" finished-at="2023-03-30T21:10:35 NZDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logFile -->
+      </class> <!-- buggyCarAutomation.StepDefinitions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
