@@ -21,5 +21,8 @@ mvn clean test
 * TestNG: 		6.14.2
 * Log4j: 		1.2.17
 
+### Pre-requisite
+The username parameter for testing needs to be changed for register and voting case in StepDefinitions.java.
+
 ##### NOTE
 Logs will be generated in the folder logs/log4j.log
