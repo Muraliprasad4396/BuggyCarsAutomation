@@ -56,6 +56,7 @@ public class StepDefinitions {
 		RegisterScreen registerScreen = new RegisterScreen();
 		
 		// Register scenario
+		// First parameter should be modified for every execution
 		registerScreen.registerTest("Murali@777", "Murali","Prasad", "Pass123!", "Pass123!", driver);
 		
 		// Close the browser
@@ -107,6 +108,7 @@ public class StepDefinitions {
         
         //Voting validation
         LoginScreen loginScreen = new LoginScreen();
+	// First parameter should be modified for every execution - can use the same parameter used in register case	
         loginScreen.loginTest("Murali@777", "Pass123!", driver);
         VotingScreen votingScreen = new VotingScreen();
         votingScreen.votePopularModelTest("Test Comment",driver);
